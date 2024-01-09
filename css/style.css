@@ -410,7 +410,7 @@ article .icon {
 
 #sertifikat {
   position: relative;
-  margin-top: 60%;
+  margin-top: 10%;
 
 }
 
@@ -474,7 +474,7 @@ article .icon {
   grid-template-columns: repeat(2, 2fr);
   align-items: center;
   grid-gap: 3rem;
-  margin-top: 45%;
+  margin-top: 80%;
 }
 .contact-img img {
   max-width: 100%;
