@@ -6,553 +6,550 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/meidaaqueries.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
     
     <title>My Portfolio</title>
   </head>
-  <body>
-   
-    <!-- navbar -->
-    <nav id="desktop-nav">
-      <div class="logo">Nana's Portofolio</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#project">Project</a></li>
-          <li><a href="#sertifikat">Sertifikat</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <input type="checkbox" onclick="ubahMode()">
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Nana's Portofolio</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about " onclick="toggleMenu()">About</a></li>
-          <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
-          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
-          <li><a href="#sertifikat" onclick="toggleMenu()">Sertifikat</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
+<body>
+   <!-- navbar -->
+   <nav id="desktop-nav">
+    <div class="logo">Nana's Portofolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#sertifikat">Sertifikat</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- <input type="checkbox" onclick="ubahMode()"> -->
+      </ul>
+    </div>
+  </nav>
 
-    <!-- profile -->
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="assets/hana.jpg" alt="John Doe profile picture" />
+  <nav id="hamburger-nav">
+    <div class="logo">Nana's Portofolio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Hana Nadira Savaira</h1>
-        <p class="section__text__p2">Students at SMK Wikrama</p>
+      <div class="menu-links">
+        <li><a href="#about " onclick="toggleMenu()">About</a></li>
+        <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#sertifikat" onclick="toggleMenu()">Sertifikat</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- profile -->
+<section id="profile">
+    <div class="section__pic-container">
+      <img src="assets/hana 3.jpg" alt="John Doe profile picture" />
+    </div>
+
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Hana Nadira Savaira</h1>
+      <p class="section__text__p2">Students at SMK Wikrama</p>
+
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('assets/CV_Hana.pdf')"
-          >
-            Download CV
+            onclick="window.open('assets/CV_Hana.pdf')">
+              Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
+
         <div id="socials-container">
           <img
             src="assets/linkedin.jpg"
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/hana-nadira-93a187277/';"
-            alt=""
-          />
+            alt=""/>
           <img
             src="assets/github.png"
             class="icon"
             onclick="location.href='https://github.com/hananadira'"
-            alt=""
-          />
+            alt=""/>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
-    <!-- about -->
-    <section id="about">
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
+
+<!-- about -->
+<section id="about">
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+        </div>
+        <div class="text-container">
+          <p>
+            Saya adalah seorang pelajar dari SMK Wikrama Kota Bogor, yang mengambil jurusan RPL 
+            (Rangkaian Perangkat Lunak)br atau yang saat ini dikenal sebagai <br>PPLG 
+            (Pengembangan Perangkat Lunak dan Gim). Saya telah mengumpulkan banyak pengalaman <br> 
+            dalam bidang pengembangan web, di antaranya adalah hasil kerja saya pada project di sekolah. 
+            Sebagian dari projek-projek saya dapat ditemukan <br>di halaman 'Project' pada portofolio web ini.
+          </p>
+      </div>
+  </div>
+
+  <div class="about-details-container">
+    <div class="about-containers">
+      <div class="details-container">
           <img
-            class="about-pic"
-            src="assets/WhatsApp Image 2023-12-14 at 18.41.43_bd77cbf3.jpg"
-            alt="Profile Picture"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                class="icon"
-                src="assets/experience.jpg"
-                alt="Experience icon"
-              />
-              <h3>Experience</h3>
-              <p>2022<br />UI / UX | Front End | Back End</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Saya adalah seorang pelajar dari SMK Wikrama Kota Bogor, yang mengambil jurusan RPL 
-              (Rangkaian Perangkat Lunak) atau yang saat ini dikenal sebagai PPLG 
-              (Pengembangan Perangkat Lunak dan Gim). Saya telah mengumpulkan banyak pengalaman 
-              dalam bidang pengembangan web, di antaranya adalah hasil kerja saya pada proyek web 
-              di sekolah. Sebagian dari proyek-proyek saya dapat ditemukan di halaman 'Project' pada portofolio web ini.
-            </p>
+            class="icon"
+            src="assets/experience.jpg"
+            alt="Experience icon"/>
+            <h3>Experience</h3>
+            <p>2022 - 2024<br />UI / UX | Quality Assurance | Back End</p>
           </div>
         </div>
-      </div>
-      <img
-        src="assets/arrow.png"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-        alt=""
-      />
-    </section>
-
-    <!-- resume -->
-    <section id="resume">
-      <h1 class="title">Resume</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  class="icon"
-                  src="assets/html.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>HTML</h4>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/css.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>CSS</h4>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/js.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>JavaScript</h4>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  class="icon"
-                  src="assets/php.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>PHP</h4>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/sql.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>SQL</h4>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/node-js.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>Node JS</h4>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/java.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>Java</h4>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/vue-js.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>Vue JS</h4>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="assets/git.jpg"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h4>Git</h4>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
+        <div class="text-container">
+          <p>
+            1. UI/UX 2022<br> 
+            A. saya pernah berpengalaman dalam UI/UX sehingga saya terjun di dalam project yang diselenggarakan oleh 
+            guru saya di sekolah, saya masuk dalam project ini pada saat saya kelas 10 <br> B. Saya juga mempunyai beberapa desain di dalam 
+            figma saya <br>
+            2. Back End 2023 - 2024 <br>
+            Mempelajari dan meng implementasi kan nya ke dalam project saya yang ada di halaman 'Project' <br>
+            3. Quality Assurance 2024<br> 
+            Menganalisis server secara keseluruhan hingga server web itu bisa di gunakan oleh pengguna
+          </p>
         </div>
-      </div>
-      <img
-        src="assets/arrow.png"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-        alt=""
-      />
-    </section>
+  </div>
+  </div>
+</section>
 
-    <!-- project -->
-    <section id="project">
-      <h1 class="title">Project</h1>
-      <div class="bodyy">
-        <div class="container">
-          <div class="cards">
-            <figure>
-              <img src="assets/personal.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web Personal</h3>
-              <p>Web ini web pertama kali saya belajar untuk buat mmbuat tampilan web di browser menggunakan HTML CSS</p>
-              <a href="https://github.com/hananadira/personalyaa">GitHub</a>
-            </div>
-          </div>
-          <div class="cards">
-            <figure>
-              <img src="assets/web-porto.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web Portofolio</h3>
-              <p>Web portofolio ini adalah web portofolio pertama saya dan saya membuatnya menggunakan HTML CSS</p>
-              <a href="https://github.com/hananadira/profilrhana">GitHub</a>
-            </div>
-          </div>
-          <div class="cards">
-            <figure>
-              <img src="assets/layoutsHTMLCSS.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Layouts</h3>
-              <p>Ini adalah hasil dari project pertama saya dalam membuat layouts menggunakan HTML CSS</p>
-              <a href="https://github.com/hananadira/layout_html-css">GitHub</a>
-            </div>
-          </div>
+
+<!-- resume -->
+<section id="resume">
+  <h1 class="title">Resume</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <article>
+        <img class="icon"
+             src="assets/html.png" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>HTML</h4>
+          <p>Experienced</p>
         </div>
-
-        <div class="container">
-          <div class="cards">
-            <figure>
-              <img src="assets/webDinamis.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web Dinamis</h3>
-              <p>Web Dinamis ini adalah web dari hasil project saya menggunakan HTML CSS PHP OOP</p>
-              <a href="https://github.com/hananadira/web_dinamis">GitHub</a>
-            </div>
-          </div>
-          <div class="cards">
-            <figure>
-              <img src="assets/iKantin.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web iKantin</h3>
-              <p>Web iiKantin ini adalah web dari hasil project saya yang saya buat menggunakan HTML CSS PHP OOP</p>
-              <a href="https://github.com/hananadira/iKantin">GitHub</a>
-            </div>
-          </div>
-          <div class="cards">
-            <figure>
-              <img src="assets/project-1.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web Masjid</h3>
-              <p>Web Masjid ini adalah hasil dari project AAS saya yang saya buat menggunakan konsep OOP dalam PHP</p>
-              <a href="https://github.com/hananadira/aas-webMasjid">GitHub</a>
-            </div>
-          </div>
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/css.png" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>CSS</h4>
+          <p>Experienced</p>
         </div>
-
-        <div class="container">
-          <div class="cards">
-            <figure>
-              <img src="assets/project-3.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>CRUD</h3>
-              <p>CRUD ini adalah hasil dari belajar saya menggunakan Laravel</p>
-              <a href="https://github.com/hananadira/CRUD_larav">GitHub</a>
-            </div>
-          </div>
-          <div class="cards">
-            <figure>
-              <img src="assets/project-2.png" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web Apotek</h3>
-              <p>Web apotek ini adalah hasil dari project belajar saya di sekolah yang menggunakan framework dari PHP yaitu Laravel</p>
-              <a href="https://github.com/hananadira/laravel_apotek">GitHub</a>
-            </div>
-          </div>
-          <div class="cards">
-            <figure>
-              <img src="assets/WebAppKeterlambatan.jpg" alt="">
-            </figure>
-            <div class="contenido">
-              <h3>Web App Keterlambatan</h3>
-              <p>Web apotek ini adalah hasil dari project uji kelayakan di sekolah menggunakan Laravel</p>
-              <a href="https://github.com/hananadira/Web-App-Keterlambatan">GitHub</a>
-            </div>
-          </div>
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/js.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>JavaScript</h4>
+          <p>Experienced</p>
         </div>
-      </div>
-    </section>
-
-    <!-- sertifikat -->
-    <section id="sertifikat">
-      <h1 class="title">Sertifikat</h1>
-      <div class="experience-details-container">
-
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/sertifikat belajar html.jpeg"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">HTML</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/sertifikat belajar css.jpg"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">CSS</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/K-3.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">K-3</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/php.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>PHP</h4>
+          <p>Experienced</p>
         </div>
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/belajar-html_always.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">HTML</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/data(100).png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">data(100)</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/java.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Java</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/git.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>GIT</h4>
+          <p>Experienced</p>
         </div>
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/kuis_git.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">GIT</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/logic.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Logic</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/pengembangan_software.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Software</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-        </div>
-
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/commandLine.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Command Line</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/Hana Nadira Savaira.jpg"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Front-End</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="assets/Hana Nadira Savaira-TTD.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Back-End</h2>
-            <div class="btn-container">
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <img
-        src="assets/arrow.png"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-        alt=""
-      />
-    </section>
-
-    <!-- contact -->
-   <section id="contact">
-    <div class="contact-form">
-      <h1>Contact <span>Us</span></h1>
-      <p>Connect with me via phone: 087873640025 or
-        email: hananadira140107@gmail.com
-      </p>
-      <form action="">
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="E-mail" required>
-        <input type="text" id="subject" placeholder="Write a Subject" required>
-        <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-        <input type="submit" value="Submit" class="btn">
-      </form>
+      </article>
     </div>
-    <div class="contact-img">
-      <img src="assets/about.jpg" alt="">
-    </div>
-   </section>
-    <script src="js/script.js"></script>
+  </div>
 
-  </body>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <article>
+        <img class="icon"
+             src="assets/sql.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>SQL</h4>
+          <p>Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/laravel.png" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>Laravel</h4>
+          <p>Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/vue-js.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>Vue JS</h4>
+          <p>Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/node-js.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>Node JS</h4>
+          <p>Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img class="icon"
+             src="assets/espress-js.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>Express JS</h4>
+          <p>Experienced</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <article>
+        <img class="icon"
+             src="assets/atlasian.png" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>Atlasian</h4>
+          <p>Experienced</p>
+        </div>
+      </article>
+      <!-- <article>
+        <img class="icon"
+             src="assets/css.png" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>CSS</h4>
+          <p>Experienced</p>
+        </div>
+      </article> -->
+      <!-- <article>
+        <img class="icon"
+             src="assets/js.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>JavaScript</h4>
+          <p>Experienced</p>
+        </div>
+      </article> -->
+      <!-- <article>
+        <img class="icon"
+             src="assets/php.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>PHP</h4>
+          <p>Experienced</p>
+        </div>
+      </article> -->
+      <!-- <article>
+        <img class="icon"
+             src="assets/git.jpg" 
+             alt="Experience icon"
+        />
+        <div>
+          <h4>GIT</h4>
+          <p>Experienced</p>
+        </div>
+      </article> -->
+    </div>
+  </div>
+</section>
+
+
+<!-- project -->
+<section id="project">
+  <h1 class="title">Project</h1>
+  <div class="bodyy">
+    <div class="container">
+      <div class="cards">
+        <figure>
+          <img src="assets/personal.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web Personal</h3>
+          <p>Web ini web pertama kali saya belajar untuk buat mmbuat tampilan web di browser menggunakan HTML CSS</p>
+          <a href="https://github.com/hananadira/personalyaa">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/web-porto.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web Portofolio</h3>
+          <p>Web portofolio ini adalah web portofolio pertama saya dan saya membuatnya menggunakan HTML CSS</p>
+          <a href="https://github.com/hananadira/profilrhana">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/layoutsHTMLCSS.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Layouts</h3>
+          <p>Ini adalah hasil dari project pertama saya dalam membuat layouts menggunakan HTML CSS</p>
+          <a href="https://github.com/hananadira/layout_html-css">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+        <figure>
+          <img src="assets/webDinamis.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web Dinamis</h3>
+          <p>Web Dinamis ini adalah web dari hasil project saya menggunakan HTML CSS PHP OOP</p>
+          <a href="https://github.com/hananadira/web_dinamis">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/iKantin.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web iKantin</h3>
+          <p>Web iiKantin ini adalah web dari hasil project saya yang saya buat menggunakan HTML CSS PHP OOP</p>
+          <a href="https://github.com/hananadira/iKantin">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/project-1.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web Masjid</h3>
+          <p>Web Masjid ini adalah hasil dari project AAS saya yang saya buat menggunakan konsep OOP dalam PHP</p>
+          <a href="https://github.com/hananadira/aas-webMasjid">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+        <figure>
+          <img src="assets/project-3.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>CRUD</h3>
+          <p>CRUD ini adalah hasil dari belajar saya menggunakan Laravel</p>
+          <a href="https://github.com/hananadira/CRUD_larav">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/project-2.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web Apotek</h3>
+          <p>Web apotek ini adalah hasil dari project belajar saya di sekolah yang menggunakan framework dari PHP yaitu Laravel</p>
+          <a href="https://github.com/hananadira/laravel_apotek">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/WebAppKeterlambatan.jpg" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web App Keterlambatan</h3>
+          <p>Web apotek ini adalah hasil dari project uji kelayakan di sekolah menggunakan Laravel</p>
+          <a href="https://github.com/hananadira/Web-App-Keterlambatan">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+        <figure>
+          <img src="assets/project-3.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>CRUD</h3>
+          <p>CRUD ini adalah hasil dari belajar saya menggunakan Laravel</p>
+          <a href="https://github.com/hananadira/CRUD_larav">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/project-2.png" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web Apotek</h3>
+          <p>Web apotek ini adalah hasil dari project belajar saya di sekolah yang menggunakan framework dari PHP yaitu Laravel</p>
+          <a href="https://github.com/hananadira/laravel_apotek">GitHub</a>
+        </div>
+      </div>
+      <div class="cards">
+        <figure>
+          <img src="assets/WebAppKeterlambatan.jpg" alt="">
+        </figure>
+        <div class="contenido">
+          <h3>Web App Keterlambatan</h3>
+          <p>Web apotek ini adalah hasil dari project uji kelayakan di sekolah menggunakan Laravel</p>
+          <a href="https://github.com/hananadira/Web-App-Keterlambatan">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- sertifikat -->
+<section id="sertifikat">
+  <h1 class="title">Sertifikat</h1>
+  <div class="grid-container">
+    <div class="item1">
+      <img src="assets/belajar-html_always.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item2">
+      <img src="assets/sertifikat belajar html.jpeg" height="280px" width="370px" alt="">
+    </div>
+    <div class="item3">
+      <img src="assets/sertifikat belajar css.jpg" height="280px" width="370px" alt="">
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="item1">
+      <img src="assets/sertifikat media sosial.jpeg" height="280px" width="370px" alt="">
+    </div>
+    <div class="item2">
+      <img src="assets/K-3.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item3">
+      <img src="assets/kuis_git.png" height="280px" width="370px" alt="">
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="item1">
+      <img src="assets/commandLine.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item2">
+      <img src="assets/Hana Nadira Savaira.jpg" height="280px" width="370px" alt="">
+    </div>
+    <div class="item3">
+      <img src="assets/Hana Nadira Savaira-TTD.png" height="280px" width="370px" alt="">
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="item1">
+      <img src="assets/pengembangan_software.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item2">
+      <img src="assets/data(100).png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item3">
+      <img src="assets/logic.png" height="280px" width="370px" alt="">
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="item1">
+      <img src="assets/java.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item2">
+      <img src="assets/aws.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item3">
+      <img src="assets/devCoach-133.png" height="280px" width="370px" alt="">
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="item1">
+      <img src="assets/devCoach-134.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item2">
+      <img src="assets/devCoach-135.png" height="280px" width="370px" alt="">
+    </div>
+    <div class="item3">
+      <img src="assets/devCoach-136.png" height="280px" width="370px" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+<section id="contact">
+  <h1 class="title">Contact</h1>
+  <div class="contact">
+
+  <form action="">
+    <div class="input-group">
+      <div class="input-box">
+        <input type="text"
+        placeholder="Full Name">
+        <input type="email"
+        placeholder="Email">
+      </div>
+      <div class="input-box">
+        <input type="number"
+        placeholder="Phone Number">
+        <input type="email"
+        placeholder="Subject">
+      </div>
+    </div>
+
+    <div class="input-group-2">
+      <textarea name="" id="" cols="30" 
+      rows="10" placeholder="Message"></textarea>
+      <input type="submit" value="Send Message"
+      class="btn">
+    </div>
+
+  </form>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
 </html>
