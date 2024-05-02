@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-function ubahMode() {
-  var ubah = document.body;
-  ubah.classList.toggle("dark");
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
