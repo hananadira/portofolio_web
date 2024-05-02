@@ -9,10 +9,16 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #011627;
+  --input-color: #01162763;
+  --costum-color: #6338ec;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
-  /* background-color: white;
-  color: #333333; */
+  background-color: var(--primary-color);
 }
 
 html {
@@ -388,7 +394,7 @@ article .icon {
 
 #sertifikat {
   position: relative;
-  margin-top: 105%;
+  margin-top: 85%;
 }
 
 .grid-container {
